@@ -1,0 +1,31 @@
+.subhero-list {
+    display: flex;
+
+    .subhero-list-item {
+        border: 1px solid #eee;
+        display: flex;
+        align-items: center;
+        padding: 0.75rem 0;
+        margin: 3rem 1rem;
+
+        .subhero-list-item-media {
+            .subhero-list-item-media-icon {
+                font-size: 3rem;
+                padding: 1rem;
+            }
+        }
+
+        .subhero-list-item-content {
+            display: flex;
+            flex-direction: column;
+
+            .subhero-list-item-content-title {
+                font-weight: 700;
+            }
+
+            .subhero-list-item-content-description, .subhero-list-item-content-title {
+                padding: 0.25rem 0;
+            }
+        }
+    }
+}
